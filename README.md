@@ -29,6 +29,11 @@ Otherwise:
 You can convert the Pytorch model to ONNX using the following Google Colab notebook:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oDEKz8FUCXtW-REhWy5N__PgTPjt3jm9?usp=sharing)
 - The License of the models is GPL-3.0 license: [License](https://github.com/ultralytics/ultralytics/blob/master/LICENSE)
 
+Notes - 
+
+- All versions of YOLOv8 and YOLOv11 onnx models can be applied here.
+- If not working with default onnx exporting, try changing opset version and reexport onnx model.
+
 # Original YOLOv8 model
 The original YOLOv8 Instance Segmentation model can be found in this repository: [YOLOv8 Instance Segmentation](https://github.com/ultralytics/ultralytics)
 
